@@ -1,0 +1,64 @@
+.board {
+    text-align: center;
+    display: block;
+    background-color: white;
+    width: auto;
+    height: 97vh;
+    border-color: black;
+    border-width: 1mm;
+    border-style: solid;
+    font-size: 25px;
+}
+.board div {
+    min-height: 25%;
+}
+
+div ul {
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+    height: 1em;
+}
+
+li {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0px 5px;
+}
+
+.unUsable {
+    opacity: 0.2;
+    border-width: 1mm;
+}
+
+.usable:hover {
+    color: grey;
+    border-width: 1mm;
+}
+
+.usable:active {
+    background-color: rgb(192, 192, 192);
+}
+
+li div {
+    user-select: none;
+    vertical-align: middle;
+    background-color: lightgrey;
+    border-style: solid;
+    border-width: 1mm 1mm 2mm 2mm;
+    width: 5em;
+    height: 2em;
+    line-height: 2em;
+}
+
+li div.defense{
+    padding: 0px 10px;
+}
+
+button {
+    font-size: 25px;
+}
+
+hr {
+    background-color: blue;
+    height: 1px;
+}
